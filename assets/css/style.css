@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #0F0F0F;
+    color: white;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 250px;
+}
+
+header input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    height: 33px;
+    border-radius: 15px;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 0 10px;
+    border: 1px solid #333;
+}
+
+header button {
+    margin-left: -1px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #0f0f0f;
+    border: 1px solid #333;
+}
+
+.nav1 img.menu-icon {
+    margin-right: 10px;
+}
+
+.nav3 img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+main.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.video .titulo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.canal {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.avatarfimlplusfamily {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.canal p {
+    margin: 0 12px 0 0;
+
+}
+
+.canal button {
+    background-color: rgba(255, 255, 255, 0.647);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+.info {
+    max-width: 800px;
+}
+
+.info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.lateral ul {
+    list-style: none;
+    display: grid;
+    gap: 10px;
+}
+
+.lateral li {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 10px;
+    align-items: start;
+}
+
+.lateral div p {
+    line-height: 1.2;
+}
